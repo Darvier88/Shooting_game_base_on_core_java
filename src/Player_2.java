@@ -1,11 +1,9 @@
 public class Player_2 extends Player_1{
-    private int health;
-    private Boolean armour;
+    private boolean armour;
 
 
     public Player_2(String name, String weapon, int health, Boolean armour) {
         super(name, weapon, health);
-        this.health = health;
         this.armour = armour;
 
     }
